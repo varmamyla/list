@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    body{
+        background-image:url("https://cdn.pixabay.com/photo/2017/01/31/15/37/evergreen-2025158_1280.png");
+        background-repeat: no-repeat;
+        background-size: 1600px 800px;
+    }
+    #main-container{
+        /*height:1280px;
+        width:600px:*/
+        display:flex;
+        align-items:end;
+       }
+       #kitten-image{
+           height: 200px;
+           width: 200px;
+           background-color: white;
+           margin:0px 30px 20px 20px;
+        }
+        #puppy-image{
+           height:200px;
+           width: 200px;
+           background-color: white;
+           margin: 0px 30px 20px 20px;
+       }
+       #roof1{
+           height: 300px;
+           border-bottom:190px solid rgb(237 ,100 ,9);
+           border-left: 115px solid transparent;
+           border-right: 115px solid transparent;
+           width: 0;
+           margin:0px 50px 0px 0px;
+        }
+        #roof2{
+            height:250px;
+            border-bottom:250px solid rgb(237,100,9);
+            border-left:120px solid transparent;
+            border-right: 120px solid transparent;
+            width:0;
+            margin:0px 50px 0px 0px;
+        }
+        #wall{
+           margin-right:70px;
+        }
+        h1{
+           text-align:center;
+        }
+ </style>
+</head>
+<body>
+    <h1>Build Houses for Kitten & Puppy</h1>
+    <div id="main-container">
+        <div id="house1">
+            <div id="roof1"></div>
+            <div id="wall1">
+            <img id="kitten-image" src="https://cdn.pixabay.com/photo/2020/11/15/18/31/cat-5746771_1280.png" alt="">
+            </div> 
+        </div>
+
+        <div id="house2">
+            <div id="roof2"></div>
+            <div id="wall2">
+            <img id="puppy-image" src="https://cdn.pixabay.com/photo/2020/08/10/22/32/dog-5478891_1280.png" alt="">
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
